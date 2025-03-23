@@ -1,0 +1,12 @@
+{
+    "name": "hexlet/code",
+    "description": "First hexlet project",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Alexander Dolgov",
+            "email": "dlgv24@yandex.ru"
+        }
+    ],
+    "require": {}
+}
