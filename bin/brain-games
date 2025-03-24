@@ -3,4 +3,7 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-BrainGames\Cli\brainGames();
+use function BrainGames\Cli\greet;
+
+greet();
+
