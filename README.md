@@ -37,4 +37,5 @@ $ make brain-prime
 [![Demo](assets/brain-gcd.gif)](https://asciinema.org/a/SQgdGnDCY9C1re9NENcARUugH)
 ### brain-progression
 [![Demo](assets/brain-progression.gif)](https://asciinema.org/a/L55qH6oUThmRan5eEDp0Tzl1E)
-
+### brain-prime
+[![Demo](assets/brain-prime.gif)](https://asciinema.org/a/PyW5D9z5t4TiSxJW5U2WbGbQj)
