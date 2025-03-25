@@ -1,0 +1,34 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use function BrainGames\Cli\greet;
+use function cli\line;
+use function cli\prompt;
+
+function isEven(int $number): bool
+{
+    return $number % 2 === 0;
+}
+
+$name = greet();
+
+const WIN_MSG = "Congratulations, %s!";
+const LOSE_MSG = "'%s' is wrong answer ;(. Correct answer was '%s'.\nLet's try again, %s!";
+
+line("Answer \"yes\" if the number is even, otherwise answer \"no\".");
+$endMsg = sprintf(WIN_MSG, $name);
+for ($i = 0; $i < 3; $i++) {
+    $number = rand(1, 100);
+    line("Question: %d", $number);
+    $answer = prompt("Your answer");
+    $correctAnswer = isEven($number) ? 'yes' : 'no';
+    if ($answer === $correctAnswer) {
+        line("Correct!");
+    } else {
+        $endMsg = sprintf(LOSE_MSG, $answer, $correctAnswer, $name);
+        break;
+    }
+}
+line($endMsg);
