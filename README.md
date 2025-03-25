@@ -6,3 +6,5 @@
 ## asciinema recordings:
 
 [![Demo](assets/brain-even.gif)](https://asciinema.org/a/H644i5GW8j98DLMqRukIKgHnH)
+
+[![Demo](assets/brain-calc.gif)](https://asciinema.org/a/1VDiyzeQEoes0TWR2GOBXeTvm)
