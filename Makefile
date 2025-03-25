@@ -1,4 +1,4 @@
-.PHONY: install brain-games brain-even brain-calc validate lynt
+.PHONY: install brain-games brain-even brain-calc brain-gcd validate lynt
 
 install:
 	composer install
@@ -11,6 +11,9 @@ brain-even:
 
 brain-calc:
 	./bin/brain-calc
+
+brain-gcd:
+	./bin/brain-gcd
 
 validate:
 	composer validate

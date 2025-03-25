@@ -33,3 +33,6 @@ $ make brain-prime
 [![Demo](assets/brain-even.gif)](https://asciinema.org/a/H644i5GW8j98DLMqRukIKgHnH)
 ### brain-calc
 [![Demo](assets/brain-calc.gif)](https://asciinema.org/a/1VDiyzeQEoes0TWR2GOBXeTvm)
+### brain-gcd
+[![Demo](assets/brain-gcd.gif)](https://asciinema.org/a/SQgdGnDCY9C1re9NENcARUugH)
+
